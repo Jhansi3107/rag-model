@@ -1,5 +1,5 @@
 import streamlit as st
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 from langchain_groq import ChatGroq
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -12,7 +12,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 import time
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
 
 # Set up Groq API key
 # groq_api_key = os.getenv("GROQ_API_KEY")
